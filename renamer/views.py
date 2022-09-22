@@ -2,7 +2,7 @@
 
 import sys
 from PyQt5 import QtWidgets
-from window import Ui_Window
+from .ui.window import Ui_Window
 sys.path.insert(0, 'C:\\Users\\Rhine\\Documents\\GitHub\\Bulk-File-Rename\\ui')
 
 
