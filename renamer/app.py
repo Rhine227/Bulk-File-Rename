@@ -1,10 +1,15 @@
+# -*- coding: utf-8 -*-
+# renamer/app.py
+
+"""This module provides the Renamer application."""
+
 import sys
-from PyQt5 import QApplication as qapp
+from PyQt5.QtWidgets import QApplication
 from .views import Window
 
 
 def main():
-    app = qapp(sys.argv)
+    app = QApplication(sys.argv)
     win = Window()
     win.show()
     sys.exit(app.exec())
